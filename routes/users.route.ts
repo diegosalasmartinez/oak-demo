@@ -4,7 +4,7 @@ const router = new Router()
 
 router.get("/", (ctx) => {
   ctx.response.body = {
-    message: 'Welcome to the Oak Deno API!'
+    message: 'Welcome to the Oak Deno API :)!'
   }
 })
 
